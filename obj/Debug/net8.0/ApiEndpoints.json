@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Almoxarifado.Controllers.ItemController",
+    "Method": "Update",
+    "RelativePath": "Item/AddItem",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addItemDTO",
+        "Type": "Almoxarifado.DTO.AddItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Almoxarifado.Controllers.ItemController",
+    "Method": "Add",
+    "RelativePath": "Item/CreateItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemDTO",
+        "Type": "Almoxarifado.DTO.ItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Almoxarifado.Controllers.ItemController",
+    "Method": "GetAll",
+    "RelativePath": "Item/GetAllItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Almoxarifado.Controllers.ItemController",
+    "Method": "Get",
+    "RelativePath": "Item/GetItem/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Almoxarifado.Controllers.ItemController",
+    "Method": "Remove",
+    "RelativePath": "Item/RemoveItem",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "removeItemDTO",
+        "Type": "Almoxarifado.DTO.RemoveItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
